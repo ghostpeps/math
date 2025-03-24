@@ -1,2 +1,2 @@
 # Math
-This site helps you see math.
+From π to e<sup>iπ</sup>, this site can help you with difficult math.
