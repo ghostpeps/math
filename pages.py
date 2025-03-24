@@ -1,6 +1,6 @@
 import streamlit as st
 
-exp = r"e^{i\pi}"
+exp = "e^{i\pi}"
 pgs = st.navigation([
   st.Page(page="pi.py", title="π"),
   st.Page(page="e.py", title="_e_"),
