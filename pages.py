@@ -1,11 +1,11 @@
 import streamlit as st
 
-exp1 = r"e^{i\pi}"
+exp1 = st.html("<p>Euler's identity states that e<sup>i&pi;</sup> = -1.</p>")
 pgs = st.navigation([
   st.Page(page="pi.py", title="π"),
   st.Page(page="e.py", title="e"),
   st.Page(page="phi.py", title="Φ"),
-  st.Page(page="eipi.py", title="e<sup>iπ</sup>"),
+  st.Page(page="eipi.py", title=exp1),
   st.Page(page="sqrt2.py", title="√2"),
   st.Page(page="i.py", title="i"),
   st.Page(page="y.py", title="γ"),
