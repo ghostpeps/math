@@ -1,13 +1,12 @@
 import streamlit as st
 
 exp1 = r"e^{i\pi}"
-exp2 = r"\sqrt{2}"
 pgs = st.navigation([
   st.Page(page="pi.py", title="π"),
   st.Page(page="e.py", title="e"),
   st.Page(page="phi.py", title="Φ"),
   st.Page(page="eipi.py", title="e<sup>iπ</sup>"),
-  st.Page(page="sqrt2.py", title=exp2),
+  st.Page(page="sqrt2.py", title="√2"),
   st.Page(page="i.py", title="i"),
   st.Page(page="y.py", title="γ"),
   st.Page(page="zeta3.py", title="ζ(3)"),
