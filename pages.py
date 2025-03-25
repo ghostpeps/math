@@ -16,6 +16,7 @@ pgs = st.navigation([
   st.Page(page="h.py", title="h"),
   st.Page(page="l.py", title="L"),
   st.Page(page="c.py", title="c"),
-  st.Page(page="k.py", title="k")
+  st.Page(page="k.py", title="k"),
+  st.Page(page="tau.py", title="τ")
 ])
 pgs.run()
