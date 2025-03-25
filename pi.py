@@ -5,3 +5,5 @@ st.write("π (paɪ) is a constant. π is the ratio of a circle's circumference t
 st.image("circle.png")
 exp = exp = r"\frac{1783366216531}{567663097408}"
 st.write(f"The exact value of π as a fraction is ${exp}$.")
+st.write("Here is a video to memorize the digits of π:")
+st.html("<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xsrJdSaiD9U?si=KL6ltAo18zece388" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>")
