@@ -1,6 +1,6 @@
 import streamlit as st
 
-pgs = st.navigation([
+pages = [
   st.Page(page="pi.py", title="π"),
   st.Page(page="e.py", title="𝑒"),
   st.Page(page="phi.py", title="Φ"),
@@ -22,5 +22,6 @@ pgs = st.navigation([
   st.Page(page="alephnull.py", title="ℵ₀"),
   st.Page(page="2alephnull.py", title="2^ℵ₀"),
   st.Page(page="ieipi.py", title="i𝑒^iπ")
-])
+]
+pgs = st.navigation(pages)
 pgs.run()
