@@ -4,7 +4,7 @@ pgs = st.navigation([
   st.Page(page="pi.py", title="π"),
   st.Page(page="e.py", title="𝑒"),
   st.Page(page="phi.py", title="Φ"),
-  st.Page(page="eipi.py", title="e^iπ"),
+  st.Page(page="eipi.py", title="𝑒^iπ"),
   st.Page(page="sqrt2.py", title="√2"),
   st.Page(page="i.py", title="i"),
   st.Page(page="y.py", title="γ"),
@@ -21,6 +21,6 @@ pgs = st.navigation([
   st.Page(page="ii.py", title="iⁱ"),
   st.Page(page="alephnull.py", title="ℵ₀"),
   st.Page(page="2alephnull.py", title="2^ℵ₀"),
-  st.Page(page="ieipi.py", title="ie^iπ")
+  st.Page(page="ieipi.py", title="i𝑒^iπ")
 ])
 pgs.run()
