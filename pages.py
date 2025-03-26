@@ -20,7 +20,7 @@ pages = [
   st.Page(page="tau.py", title="τ"),
   st.Page(page="ii.py", title="iⁱ"),
   st.Page(page="alephnull.py", title="ℵ₀"),
-  st.Page(page="2^alephnull.py", title="2^ℵ₀"),
+  st.Page(page="2-to-the-power-of-alephnull.py", title="2^ℵ₀"),
   st.Page(page="ieipi.py", title="i𝑒^iπ")
 ]
 pgs = st.navigation(pages)
