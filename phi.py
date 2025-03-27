@@ -7,5 +7,5 @@ st.write("Φ (pronounced fē), also known as the golden ratio, describes a relat
 st.latex(r"\phi = \frac{1 + \sqrt{5}}{2}")
 st.write("Or")
 st.latex(r"\frac{a + b}{a} = \frac{a}{b} = \phi\ \ where\ \ a > b > 0")
-st.write("Bellow is a picture about Φ/ϕ:")
+st.write("Bellow is a picture about Φ:")
 st.image(image="the-golden-ratio.png", caption=caption)
