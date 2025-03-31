@@ -4,7 +4,7 @@ pages = [
   st.Page(page="pi.py", title="π"),
   st.Page(page="e.py", title="𝑒"),
   st.Page(page="phi.py", title="Φ"),
-  st.Page(page="eipi.py", title="e^iπ"),
+  st.Page(page="eipi.py", title="e^ⁱπ"),
   st.Page(page="sqrt2.py", title="√2"),
   st.Page(page="i.py", title="i"),
   st.Page(page="y.py", title="γ"),
@@ -21,7 +21,7 @@ pages = [
   st.Page(page="ii.py", title="iⁱ"),
   st.Page(page="alephnull.py", title="ℵ₀"),
   st.Page(page="two-to-the-power-of-alephnull.py", title="2^ℵ₀"),
-  st.Page(page="ieipi.py", title="i𝑒^iπ")
+  st.Page(page="ieipi.py", title="i𝑒^ⁱπ")
 ]
 pgs = st.navigation(pages)
 pgs.run()
