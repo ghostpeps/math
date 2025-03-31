@@ -1,7 +1,7 @@
 import streamlit as st
 
 pages = [
-  st.Page(page="pi.py", title="π"),
+  st.Page(page="pi.py", title=r"$\pi$"),
   st.Page(page="e.py", title="𝑒"),
   st.Page(page="phi.py", title="Φ"),
   st.Page(page="eipi.py", title="𝑒^iπ"),
