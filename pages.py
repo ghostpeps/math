@@ -1,6 +1,5 @@
 import streamlit as st
 
-e = st.html("2 ℵ 0 {\displaystyle \aleph _{0}}")
 pages = [
   st.Page(page="pi.py", title="π"),
   st.Page(page="e.py", title="𝑒"),
@@ -21,7 +20,7 @@ pages = [
   st.Page(page="tau.py", title="τ"),
   st.Page(page="ii.py", title="iⁱ"),
   st.Page(page="alephnull.py", title="ℵ₀"),
-  st.Page(page="two-to-the-power-of-alephnull.py", title=e),
+  st.Page(page="two-to-the-power-of-alephnull.py", title="2^ℵ₀"),
   st.Page(page="ieipi.py", title="i𝑒^iπ")
 ]
 pgs = st.navigation(pages)
