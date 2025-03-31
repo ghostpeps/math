@@ -1,12 +1,12 @@
 import streamlit as st
 
 pages = [
-  st.Page(page="pi.py", title="π"),
+  st.Page(page="pi.py", title="𝜋"),
   st.Page(page="e.py", title="𝑒"),
   st.Page(page="phi.py", title="Φ"),
-  st.Page(page="eipi.py", title="e^ⁱπ"),
+  st.Page(page="eipi.py", title="e^ⁱ𝜋"),
   st.Page(page="sqrt2.py", title="√2"),
-  st.Page(page="i.py", title="i"),
+  st.Page(page="i.py", title="𝒾"),
   st.Page(page="y.py", title="γ"),
   st.Page(page="zeta3.py", title="ζ(3)"),
   st.Page(page="g.py", title="G"),
@@ -18,10 +18,10 @@ pages = [
   st.Page(page="c.py", title="c"),
   st.Page(page="k.py", title="k"),
   st.Page(page="tau.py", title="τ"),
-  st.Page(page="ii.py", title="iⁱ"),
+  st.Page(page="ii.py", title="𝒾ⁱ"),
   st.Page(page="alephnull.py", title="ℵ₀"),
   st.Page(page="two-to-the-power-of-alephnull.py", title="2^ℵ₀"),
-  st.Page(page="ieipi.py", title="i𝑒^ⁱπ")
+  st.Page(page="ieipi.py", title="𝒾𝑒^ⁱ𝜋")
 ]
 pgs = st.navigation(pages)
 pgs.run()
