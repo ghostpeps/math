@@ -11,4 +11,4 @@ exp = exp = r"3\frac{80376924307}{567663097408}"
 st.write(f"The exact value of π as a mixed number is ${exp}$.")
 st.write(f"Here is a video to memorize the digits of ${pi}$:")
 st.video(data="https://youtu.be/xsrJdSaiD9U?si=fXITLboT5BUW1I1k", loop=False)
-st.write("Click [here](%s)" % url + " to see one billion digits of " + $pi$ + ".")
+st.write(f"Click [here](%s)" % url + " to see one billion digits of ${pi}$.")
