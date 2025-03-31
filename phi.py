@@ -9,6 +9,6 @@ st.latex(r"\phi = \frac{1 + \sqrt{5}}{2}")
 st.html(
   """<p style="text-align: center;">Or</p>"""
 )
-st.latex(r"\frac{a + b}{a} = \frac{a}{b} = \phi\ \ where\ \ a > b > 0")
+st.latex(r"\frac{a + b}{a} = \frac{a}{b} = \phi\ \ for\ \ a > b > 0")
 st.write(f"Bellow is a picture about ${phi}$:")
 st.image(image="the-golden-ratio.png", caption=caption)
