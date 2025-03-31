@@ -1,10 +1,11 @@
 import streamlit as st
 
+e = st.html("<p>e<sup>iπ</sup></p>")
 pages = [
   st.Page(page="pi.py", title="π"),
   st.Page(page="e.py", title="𝑒"),
   st.Page(page="phi.py", title="Φ"),
-  st.Page(page="eipi.py", title="𝑒^iπ"),
+  st.Page(page="eipi.py", title=e),
   st.Page(page="sqrt2.py", title="√2"),
   st.Page(page="i.py", title="i"),
   st.Page(page="y.py", title="γ"),
