@@ -1,8 +1,9 @@
 import streamlit as st
 
 tau = r"\tau"
+pi = r"\pi"
 st.title(f"${tau}$")
-st.write(f"${tau}$ (pronounced taʊ) is the double of π. That makes ${tau}$ approximately equal to 6.28. Bellow is a list of ways you could use it.")
+st.write(f"${tau}$ (pronounced taʊ) is the double of ${pi}$. That makes ${tau}$ approximately equal to 6.28. Bellow is a list of ways you could use it.")
 st.latex(r"C = r\tau")
 st.latex(r"A = \frac{\tau}{2} \cdot r^2")
 st.latex(r"e^{i\tau} = 1")
