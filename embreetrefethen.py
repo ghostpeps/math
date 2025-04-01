@@ -1,4 +1,4 @@
 import streamlit as st
 
-b = r"\beta*"
+b = r"\beta^*"
 st.title(f"${b}$")
