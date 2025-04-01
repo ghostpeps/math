@@ -10,7 +10,7 @@ st.html(
   """<p style="text-align: center;">Or</p>"""
 )
 st.latex(r"""
-  \frac{\color{green}a + b}{\color{blue}a} = \frac{\color{blue}a}{\color{red}b} = \phi\ \ for\ \ \color{blue}a \nopagecolor> \color{red}b \nopagecolor> 0
+  \frac{\color{green}a + b}{\color{blue}a} = \frac{\color{blue}a}{\color{red}b} = \phi\ \ for\ \ \color{blue}a \color{off}> \color{red}b \nopagecolor> 0
 """)
 st.write(f"Bellow is a picture about ${phi}$:")
 st.image(image="the-golden-ratio.png", caption=caption)
