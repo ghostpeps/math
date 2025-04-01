@@ -21,7 +21,8 @@ pages = [
   st.Page(page="ii.py", title="iⁱ"),
   st.Page(page="alephnull.py", title="ℵ₀"),
   st.Page(page="two-to-the-power-of-alephnull.py", title="2^ℵ₀"),
-  st.Page(page="ieipi.py", title="i𝑒^i𝜋")
+  st.Page(page="ieipi.py", title="i𝑒^i𝜋"),
+  st.Page(page="lambda.py", title = "λ")
 ]
 pgs = st.navigation(pages)
 pgs.run()
