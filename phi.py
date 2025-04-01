@@ -10,7 +10,6 @@ st.html(
   """<p style="text-align: center;">Or</p>"""
 )
 st.latex(r"""
-  \usepackage{amsmath,xcolor}
   \frac{\color{green}a + b}{\color{blue}a} = \frac{\color{blue}a}{\color{red}b} = \phi\ \ for\ \ a > b > 0
 """)
 st.write(f"Bellow is a picture about ${phi}$:")
