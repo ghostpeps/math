@@ -23,7 +23,14 @@ pages = [
   st.Page(page="two-to-the-power-of-alephnull.py", title="2^ℵ₀"),
   st.Page(page="ieipi.py", title="i𝑒^i𝜋"),
   st.Page(page="lambda.py", title="λ"),
-  st.Page(page="supergolden.py", title="ψ")
+  st.Page(page="supergolden.py", title="ψ"),
+  st.Page(page="magicangle.py", title="θₘ"),
+  st.Page(page="silver.py", title="δₛ"),
+  st.Page(page="somos.py", title="σ"),
+  st.Page(page="prime.py", title="ρ"),
+  st.Page(page="lemniscate.py", title="ϖ"),
+  st.Page(page="embreetrefethen.py", title="β*")
+  
 ]
 pgs = st.navigation(pages)
 pgs.run()
