@@ -6,4 +6,5 @@ st.write(f"${zeta}$, also known as Apéry's constant, is a constant using the ze
 st.latex(r"\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s}\ \ for\ \ s > 1")
 st.latex(r"Where\ \ s = 3")
 st.latex(r"\zeta(3) = \sum_{n=1}^{\infty} \frac{1}{n^3}")
+st.latex(r"\zeta(3) = \frac{1}{1^3} + \frac{1}{2^3} + \frac{1}{3^3} + ...")
 st.latex(r"\zeta(3) \approx 1.20205")
