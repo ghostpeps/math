@@ -1,4 +1,4 @@
 import streamlit as st
 
-s = r"\delta_m"
+s = r"\delta_s"
 st.title(f"${s}$")
