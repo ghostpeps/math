@@ -1,4 +1,4 @@
-import strealit as st
+import streamlit as st
 
 r = r"\rho"
 st.title(f"${r}$")
